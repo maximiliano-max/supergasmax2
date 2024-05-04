@@ -1,0 +1,376 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+    }
+
+
+nav {
+    background-color: #8d9396;
+    height: 80px;
+    width: 100%;
+   
+    
+}
+
+nav a {
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(27, 61, 142);
+    line-height: 80px;
+    margin-left: 12px;
+    position: relative;
+}
+
+.enlace {
+    position: absolute;
+    padding: 2px 0px;
+}
+
+.logo { 
+    margin-top: 2px;
+    height: 200px;
+    border-radius: 2%;
+    
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: rgb(24, 17, 125);
+    font-size: 25px;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-family: "roboto", sans-serif;
+    font-weight: 500;
+    
+}
+
+li a.active, li a:hover {
+    background: rgb(148, 201, 255);
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    line-height: 110px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.foto1 {
+    background: url(./images/garrafa1.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80px);
+}
+
+
+.productos {
+    background-color: #8d9396;
+    padding: 10px 10px;
+    font-size: 45px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: rgb(27, 61, 142);
+    text-transform: uppercase;
+    text-align: center;
+  
+    
+}
+
+#fotos{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 200px;
+    padding-top: 0;
+    
+}
+
+
+
+#fotos:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    opacity: 0.7;
+    left: 0;
+    background: linear-gradient(rgb(27, 61, 142), #e9f7ff);
+    z-index: -1;
+}
+
+
+#fotos #garrafita {
+    max-height: 150px;
+    margin-top: 260px;
+    margin-left: 20px;
+    
+    
+}
+
+
+#fotos img{
+    height: 250px;
+    padding: 20px;
+    margin-top: 160px;
+}
+
+#fotos p {
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    font-family: "roboto", sans-serif;
+}
+
+.envio p {
+    background-color: #8d9396;
+    padding: 10px 10px;
+    font-size: 45px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: rgb(27, 61, 142);
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.pie{
+    background-image: url(./images/envio.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    text-align: center;
+    min-height: 600px;
+    max-width: 80%;
+    margin-left: 140px;
+    box-shadow: 0px 20px 20px rgba(30, 31, 46, 0.5);
+    margin-bottom: 90px;
+    margin-top: 30px;
+}
+
+.pie:before {
+    content: "";
+    width: 100%;
+    min-height: 140vh;
+    position: absolute;
+    opacity: 0.7;
+    left: 0;
+    background: linear-gradient(rgb(27, 61, 142), #e9f7ff);
+    z-index: -2;
+    margin-top: -40px;
+}
+
+.pie p {
+    font-size: 45px;
+    font-family: "roboto";
+    color: rgb(255, 255, 255);
+    padding-top: 460px;
+
+}
+.pie h1{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    color: rgb(255, 255, 255);
+}
+
+.pie img {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.pie label {
+    background-color: #8d9396;;
+    height: 80px;
+   
+}
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(27, 61, 142), #e9f7ff);
+    padding-bottom: 40px;
+    
+}
+.mapa p {
+    background-color: #8d9396;;
+    padding: 10px 10px;
+    font-size: 45px;
+    font-family: "roboto";
+    font-weight: 500;
+    color: rgb(27, 61, 142);
+    text-transform: uppercase;
+    text-align: center;
+    
+    width: 100%;
+
+}
+.mapa img {
+    margin-top: 20px;
+    padding-bottom: 40px;
+    
+}
+.mapa iframe{
+    width: 80%;
+    padding-bottom: 50px;
+
+    
+}
+footer {
+    background-color: #8d9396;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 0px;
+}
+
+footer p {
+    color: rgb(27, 61, 142);
+    font-size: 22px;
+    
+}
+
+
+@media (max-width: 952px) {
+    .enlace {
+        padding-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+    
+}
+
+@media (max-width: 840px) {
+    nav a {
+        font-size: 45px;
+    }
+
+    .carousel-item img {
+        max-width: 100%; /* Ajustamos el ancho máximo al tamaño del contenedor */
+        max-height: auto; /* Dejamos que la altura se ajuste automáticamente */
+      }
+    
+    .checkbtn {
+        display: block;
+    }
+    ul{
+        position: absolute;
+        width: 60%;
+        height: 50vh;
+        right: -110%;
+        top: 85px;
+        text-align: center;
+        transition: all .6s;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 10px;
+        
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+
+    }
+    nav ul li a {
+        font-family: 'Lucida Sans';
+        color: rgb(27, 21, 115);
+        font-size: 23px;
+        font-weight: 800;
+        }
+
+    .pie {
+        margin-left: 60px;
+    }
+
+    li a:hover, li a:active {
+        background: rgb(148, 201, 255);
+        
+    }
+    #check:checked ~ ul {
+        right: 0;
+    }
+    .logo {
+        
+        height: 100px;
+        margin-left: -20px;
+    }
+
+    #fotos p{
+        font-size:20px;
+    }
+
+    #fotos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #fotos:before {
+        content: "";
+        width: 100%;
+        min-height: 100vh;
+        position: absolute;
+        opacity: 0.7;
+        left: 0;
+        background: linear-gradient(rgb(27, 61, 142), #e9f7ff);
+        z-index: -1;
+        padding-bottom: 1000px;
+    }
+
+    #fotos #garrafita {
+        max-height: 150px;
+        margin-top: 260px;
+        margin-left: 10px;
+        
+        
+    }
+
+    .productos {
+        font-size: 28px;
+    }
+
+    .envio p{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .mapa p{
+        font-size: 28px;
+    }
+
+    .pie p {
+        font-size: 28px;
+        font-weight: 500;
+        
+    }
+}
